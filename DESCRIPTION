@@ -1,0 +1,21 @@
+Package: blackfynnr
+Type: Package
+Title: Blackfynn R Client Tool
+Version: 0.1.0
+Author: Blackfynn Team
+Maintainer: Blackfynn <support@blackfynn.com>
+Description: The Blackfynn R Client allows users to programmatically
+    interact with the Blackfynn platform.
+License: Apache License 2.0
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    ini,
+    magrittr
+RoxygenNote: 6.0.1
+Collate: 
+    'models.R'
+    'comms.R'
+    'core.R'
+    'timeseries.R'
